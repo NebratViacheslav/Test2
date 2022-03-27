@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang ="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width", initial-scale="1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="quiz" id="quiz">
+    <div class="quiz-questions">
+      <div class="quiz-questions-item">
+        <div class="quiz-questions-item__question"> Вопрос 1</div>
+        <ul class="quiz-questions__answers">
+          <li>
+            <label>
+              <input type="radio" name="q1">
+              Ответ 1
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="radio" name="q1">
+              Ответ 2
+            </label>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="quiz-results"></div>
+    <div class="quiz-indicator"></div>
+    <div class="quiz-controls">
+      <button class="button-next">Далее</button>
+      <button class="button-restart">Ещё раз</button>
+    </div>
+  </div>
+
+  <script src="script/script.js"> </script>
+</body>
+</html>
