@@ -9,30 +9,15 @@
 </head>
 <body>
   <div class="quiz" id="quiz">
-    <div class="quiz-questions">
-      <div class="quiz-questions-item">
-        <div class="quiz-questions-item__question"> Вопрос 1</div>
-        <ul class="quiz-questions__answers">
-          <li>
-            <label>
-              <input type="radio" name="q1">
-              Ответ 1
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="radio" name="q1">
-              Ответ 2
-            </label>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="quiz-results"></div>
-    <div class="quiz-indicator"></div>
+    <div class="quiz-questions" id="questions"></div>
+
+    <div class="quiz-indicator" id="indicator">1/10</div>
+
+    <div class="quiz-results" id="results"></div>
+
     <div class="quiz-controls">
-      <button class="button-next">Далее</button>
-      <button class="button-restart">Ещё раз</button>
+      <button class="button-next" id="button-next" disabled>Далее</button>
+      <button class="button-restart" id="button-restart"> Ещё раз </button>
     </div>
   </div>
 
