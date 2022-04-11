@@ -1,3 +1,26 @@
+// window.onload = function () {
+//   let getJSON = function (url, cullback) {
+//     let xhr = new XMLHttpRequest ();
+//     xhr.open ('GET', url);
+//     xhr.responseType = 'json';
+//     xhr.onload = function (){
+//       let status = xhr.status;
+//       if (status==200){
+//         cullback(null, xhr.response)
+//       } else {
+//         cullback (status, xhr.response)
+//       };
+//     }
+//     xhr.send();
+//   }
+//   getJSON('https://sheets.googleapis.com/v4/spreadsheets/1ehTskWoJYDmcDY217FhEDYucn0bz0r_eRZHk8vPclJI', function (data) {
+//     console.log(data);
+     //1ehTskWoJYDmcDY217FhEDYucn0bz0r_eRZHk8vPclJI
+//   })
+// }
+
+
+
 const DATA = [
   {
     question: 'Вопрос 1',
